@@ -1,0 +1,25 @@
+div {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container {
+  width: 1200px;
+  height: 300px;
+  display: flex; /*me da un align-items: center; defoult*/
+  /* mueve los items dentro del contenedor vertical */
+  /* align-items: center; flex end, stretch, flex star */
+  /*mueve los contenidos horizontalmente*/
+  /* justify-content: center; flex-star, flex-end, center, space-between, space-around, space-evenly */
+  /* flex-direction: row; column */
+}
+
+.s1, .s2 {                                                         
+  flex: 1; /*da tamaños por igual dentro del contenedor*/
+}
+
+.s3 {
+  flex: 2;
+}
+
