@@ -9,10 +9,10 @@ div {
   height: 300px;
   display: flex; /*me da un align-items: center; defoult*/
   /* mueve los items dentro del contenedor vertical */
-  /* align-items: center; flex end, stretch, flex star */
+  align-items: center; /*flex end, stretch, flex star*/
   /*mueve los contenidos horizontalmente*/
-  /* justify-content: center; flex-star, flex-end, center, space-between, space-around, space-evenly */
-  /* flex-direction: row; column */
+  justify-content: center; /*flex-star, flex-end, center, space-between, space-around, space-evenly*/
+  flex-direction: row; /*column */
 }
 
 .s1, .s2 {                                                         
